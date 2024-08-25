@@ -43,5 +43,8 @@ public class Sistema_Gestion_Inventario {
         this.proveedorActual = proveedorActual;
     }
     
-    
+    @Override
+    public String toString() {
+        return "Orden : " + "Medicamento Actual = " + medicamentoActual + "Cliente Actual = " + clienteActual + "Proveedor Actual = " + proveedorActual;
+    }
 }

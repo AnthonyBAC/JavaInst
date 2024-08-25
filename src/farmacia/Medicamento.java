@@ -70,7 +70,7 @@ public class Medicamento {
 
     @Override
     public String toString() {
-        return "Medicamento{" + "codigo=" + codigo + ", nombre=" + nombre + ", tipo=" + tipo + ", stock=" + stock + ", caducidad=" + caducidad + '}';
+        return "Medicamento" + "codigo =" + codigo + ", nombre =" + nombre + ", tipo =" + tipo + ", stock =" + stock + ", caducidad =" + caducidad ;
     }
     
     

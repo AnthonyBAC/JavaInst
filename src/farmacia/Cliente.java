@@ -44,5 +44,8 @@ public class Cliente {
         this.medicamentoAdquirido = medicamentoAdquirido;
     }
     
-    
+    @Override
+    public String toString() {
+        return "Datos Cliente : " + "Nombre Cliente = " + nombreCliente + "Numero Cliente = " + numeroCliente + "Medicamento Adquirido = " + medicamentoAdquirido;
+    }
 }

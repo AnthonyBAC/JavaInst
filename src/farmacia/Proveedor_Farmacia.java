@@ -44,4 +44,8 @@ public class Proveedor_Farmacia {
         this.medicamentoSuministrado = medicamentoSuministrado;
     }
     
+    @Override
+    public String toString() {
+        return "Datos Proveedor : " + "Nombre Proveedor = " + nombreProveedor + "Codigo Proveedor = " + codigoProveedor + "Medicamento Suministrado = " + medicamentoSuministrado; 
+    }
 }
